@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Package Manager | Bin3 Blog]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/package-manager/atom.xml" rel="self"/>
+  <link href="http://bin3.github.com/blog/"/>
+  <updated>2013-01-13T23:51:47+08:00</updated>
+  <id>http://bin3.github.com/blog/</id>
+  <author>
+    <name><![CDATA[bin3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Every Language Has a Package Manager Except C++]]></title>
+    <link href="http://bin3.github.com/blog/blog/2013/01/13/every-language-has-a-package-manager-except-c-plus-plus/"/>
+    <updated>2013-01-13T23:48:00+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2013/01/13/every-language-has-a-package-manager-except-c-plus-plus</id>
+    <content type="html"><![CDATA[<p>Ruby has Gem.</p>
+
+<p>Python has easy_install and pip.</p>
+
+<p>Java has ivy and maven.</p>
+
+<p>Every language has a package manager except C++.</p>
+]]></content>
+  </entry>
+  
+</feed>
