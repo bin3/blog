@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Bin3 Blog]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://bin3.github.com/blog/"/>
+  <updated>2013-01-13T16:42:42+08:00</updated>
+  <id>http://bin3.github.com/blog/</id>
+  <author>
+    <name><![CDATA[bin3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post with Octopress]]></title>
+    <link href="http://bin3.github.com/blog/blog/2013/01/13/first-post-with-octopress/"/>
+    <updated>2013-01-13T16:10:00+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2013/01/13/first-post-with-octopress</id>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org/">Octopress</a> is very nice. I like it.</p>
+
+<p>Here are some beatifull code snippets.</p>
+
+<p><code>ruby Ruby
+puts "Hello World"
+</code></p>
+
+<p><code>python Python
+print "Hello World"
+</code></p>
+
+<p>``` c++ C++</p>
+
+<h1>include <iostream></h1>
+
+<p>int main() {
+  std::cout &lt;&lt; "Hello World" &lt;&lt; std::endl;
+  return 0;
+}
+```</p>
+
+<p>``` java Java
+public class HelloWorld {
+  public static void main(String[] args) {</p>
+
+<pre><code>System.out.println("Hello World");
+</code></pre>
+
+<p>  }
+}
+```</p>
+
+<p><code>php PHP
+&lt;?php echo "Hello World" ?&gt;
+</code></p>
+
+<p><code>html Html
+&lt;html&gt;
+&lt;body&gt;
+Hello World
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
