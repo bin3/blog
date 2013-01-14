@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tool | Bin3 Blog]]></title>
-  <link href="http://bin3.github.com/blog/blog/categories/tool/atom.xml" rel="self"/>
+  <title><![CDATA[Category: C++ | Bin3 Blog]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/c-/atom.xml" rel="self"/>
   <link href="http://bin3.github.com/blog/"/>
   <updated>2013-01-14T09:13:10+08:00</updated>
   <id>http://bin3.github.com/blog/</id>
