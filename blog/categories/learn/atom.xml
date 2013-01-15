@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: learn | Bin3 Says]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/learn/atom.xml" rel="self"/>
+  <link href="http://bin3.github.com/blog/"/>
+  <updated>2013-01-15T08:53:48+08:00</updated>
+  <id>http://bin3.github.com/blog/</id>
+  <author>
+    <name><![CDATA[bin3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What have I done and leaned in 2012]]></title>
+    <link href="http://bin3.github.com/blog/blog/2013/01/14/what-have-i-done-and-leaned-in-2012/"/>
+    <updated>2013-01-14T23:10:00+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2013/01/14/what-have-i-done-and-leaned-in-2012</id>
+    <content type="html"><![CDATA[<p>I have worked for half and one years. The past year means much more be me as a freshman.</p>
+
+<p>During the past year, I have written 3 application projects, each has about 5000 lines of code(LOC) and an AC-Automation library. Now I know how to write a project with 10k LOC and how to design the interfaces of each class.</p>
+
+<p>I leaned to use some NoSQL databases such as <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://fallabs.com/kyotocabinet/">Kyoto Cabinet</a> and <a href="http://code.google.com/p/leveldb/">LevelDB</a>. I also read some code of those projects. I began to read open source code, but I haven't finished a whole project. Anyway, it's a good start and I have got some sense of how a big system is constructed. I deeply realize that reading code is really a nessarry and efficient way to improve my coding skills.</p>
+
+<p>I began to use <a href="https://github.com/">Github</a> to manage my code.
+<img src="/images/bin3-github-contrib-2012.png" title="bin3 github contributions 2012" alt="picture alt" /></p>
+
+<p>I used <a href="http://www.wikispaces.com/">Wikispaces</a> and <a href="http://www.xmind.net/">XMind</a> to manage my knowledge. I have created about 100 wiki pages and 40 mind maps.</p>
+
+<p>I began to use MacBook Air. It gives me a very nice experience and effectively improves my production.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The top 3 regretful things I haven't done in college]]></title>
+    <link href="http://bin3.github.com/blog/blog/2012/03/13/the-most-3-regretful-things-i-havent-done-in-college/"/>
+    <updated>2012-03-13T09:55:26+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2012/03/13/the-most-3-regretful-things-i-havent-done-in-college</id>
+    <content type="html"><![CDATA[<p>Those things are all about study. I have worked for 8 months after graduation. I only had an internship for about 2 months in a very small company before which was quite unlike a formal company. I can deeply realize what's the feeling of doing a real job  until now.</p>
+
+<p>People always say, Knowledge is always not enough when in need. Yes, that's totally right. Now, when I am doing a job, when I have really dived into the society, I start to regret that something I haven't learned well enough when in college. The most regretful things are listed below:</p>
+
+<ol>
+<li><p>Haven't read enough technology and programming related books.</p></li>
+<li><p>Haven't entered open source activity, haven't deeply read and learned any excellent open source projects. Reading master's code is a real short-cut method for learning  programming.</p></li>
+<li><p>Haven't used Linux for developing. Linux is really efficient for developing and has so many useful tools, but I always have a bias in mind.</p></li>
+</ol>
+
+
+<p>Why I haven't done?</p>
+
+<ol>
+<li><p>Bias in mind.</p></li>
+<li><p>Fear of unknown.</p></li>
+<li><p>No big vision, no big goals.</p></li>
+</ol>
+
+
+<p>Late better than never. Now I have deeply knew all those problems and most importantly I haven't lost my dream. Come on, bin3, just fight.</p>
+]]></content>
+  </entry>
+  
+</feed>

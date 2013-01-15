@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: coding | Bin3 Says]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/coding/atom.xml" rel="self"/>
+  <link href="http://bin3.github.com/blog/"/>
+  <updated>2013-01-15T08:53:48+08:00</updated>
+  <id>http://bin3.github.com/blog/</id>
+  <author>
+    <name><![CDATA[bin3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[缓存友好地编程]]></title>
+    <link href="http://bin3.github.com/blog/blog/2012/09/17/e7bc93e5ad98e58f8be5a5bde59cb0e7bc96e7a88b/"/>
+    <updated>2012-09-17T10:53:43+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2012/09/17/e7bc93e5ad98e58f8be5a5bde59cb0e7bc96e7a88b</id>
+    <content type="html"><![CDATA[<p>缓存友好地编程（cache friendly programming），以前形成的概念完全来源于一道经典的面试题：比较两个二重循环的性能 <a href="http://www.cnblogs.com/yanlingyin/archive/2012/02/15/thinkingincache.html">http://www.cnblogs.com/yanlingyin/archive/2012/02/15/thinkingincache.html</a>。</p>
+
+<p>最近在对编写的AC自动机库做性能测试时，还亲身感受了一把缓存友好带来的差别。当时的场景是这样的：</p>
+
+<p>AC自动机底层可使用不同的Trie实现。对于双数组Trie、Ternary Trie，每次向AC自动机插入pattern时，并不直接插入Trie树，而是等所有pattern都插入完毕后，再统一处理构建Trie树并Compile建立AC自动机，这样的方案更简单高效。而对于普通的基于二叉树的Trie，在算法上则无此限制（简称BiTrie）。但当我把基于BiTrie的AC自动机改为向AC自动机插pattern时也直接插入BiTrie中的方案时，pattern数100万时，Compile速度下降为原来的1/5，pattern数1000万时，Compile速度更降为1/80，而其他环节性能不变。</p>
+
+<p>仅仅只是几句代码的移动却导致这么大的性能差距，远大于某些算法层面的差别。刚开始我困惑了很久，用gprofile分析也无果。最后面想到可能是缓存的原因：</p>
+
+<p>AC自动机的Insert和Compile，都会大量访问Trie的结点，把二者集中在一块跑能更好地利用对结点的缓存。</p>
+
+<p>不过，这个结论目前我不知道怎么验证。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[写一个open source的string matching库？]]></title>
+    <link href="http://bin3.github.com/blog/blog/2012/02/15/e58699e4b880e4b8aaopen-sourcee79a84string-matchinge5ba93efbc9f/"/>
+    <updated>2012-02-15T23:41:39+08:00</updated>
+    <id>http://bin3.github.com/blog/blog/2012/02/15/e58699e4b880e4b8aaopen-sourcee79a84string-matchinge5ba93efbc9f</id>
+    <content type="html"><![CDATA[<p>想找一个漂亮的AC自动机的C++实现，本来就少，更没找到达标的。在quora上看到有人问有没有全面的字符串匹配的库，没有人给出满意答案。看来目前至少没有很好的开源的字符串匹配库存在。缺口啊，我很有兴趣去开发一个。</p>
+
+<p>许多算法自己以前实现过，但大都是应付具体场景，可扩展性太弱了。要设计得很通用也曾私下琢磨过，确非易事。通过做这个可以实际磨练一下孱弱的代码设计能力。另外入行也有些年头了，应该搞一个像样的开源项目装装门面。</p>
+
+<p>好，今天写下这个想法，用课余时间一步步来做。</p>
+]]></content>
+  </entry>
+  
+</feed>
