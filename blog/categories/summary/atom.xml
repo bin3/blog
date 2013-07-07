@@ -4,7 +4,7 @@
   <title><![CDATA[Category: summary | Bin3 Says]]></title>
   <link href="http://bin3.github.com/blog/blog/categories/summary/atom.xml" rel="self"/>
   <link href="http://bin3.github.com/blog/"/>
-  <updated>2013-07-07T17:33:44+08:00</updated>
+  <updated>2013-07-07T17:54:09+08:00</updated>
   <id>http://bin3.github.com/blog/</id>
   <author>
     <name><![CDATA[bin3]]></name>
@@ -20,8 +20,9 @@
     <id>http://bin3.github.com/blog/blog/2013/07/07/one-sentence-for-one-technique</id>
     <content type="html"><![CDATA[<h2>Why?</h2>
 
-<p>IT技术日新月异体系庞杂，作为有追求的从业者欲紧随潮流、不被拍死海滩乃至驻立潮头，需要在不断夯实自身专长、专注深度的同时，也兼顾广度，保持开阔的视野和敏锐的嗅觉，对技术的宏观层面亦有所把握，这反过来也能采百家之长，精深自己的专长。
-本文采用广度优先遍历各种技术，一种技术用一句话概括其精髓，旨在写一篇最广最浅的技术文。基于本人目前的认识，难免各种疏漏，之后慢慢更新改良。</p>
+<p>IT技术日新月异体系庞杂，作为有追求的从业者欲紧随潮流、不被拍死海滩乃至驻立潮头，需要在不断夯实自身专长、专注深度的同时，也兼顾广度，保持开阔的视野和敏锐的嗅觉，对技术的宏观层面亦有所把握，这反过来也能采百家之长，精深自己的专长。</p>
+
+<p>基于本人目前的认知，本文广度优先遍历各种技术，一种技术用一句话概括其精髓，旨在写一篇最广又最浅的技术文。难免各种疏漏，之后慢慢更新改良。</p>
 
 <h2>Language</h2>
 
@@ -81,7 +82,7 @@
 
 <h4>node.js</h4>
 
-<p>构建于Chrominume V8之上，JavaScript的后端运行框架。</p>
+<p>构建于Google V8引擎之上，JavaScript的后端运行框架，编程特点：事件驱动、异步编程、非阻塞IO、单线程。</p>
 
 <h4>Ruby on rails, ROR</h4>
 
