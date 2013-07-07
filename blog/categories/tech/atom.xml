@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: summary | Bin3 Says]]></title>
-  <link href="http://bin3.github.com/blog/blog/categories/summary/atom.xml" rel="self"/>
+  <title><![CDATA[Category: tech | Bin3 Says]]></title>
+  <link href="http://bin3.github.com/blog/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://bin3.github.com/blog/"/>
   <updated>2013-07-07T17:33:44+08:00</updated>
   <id>http://bin3.github.com/blog/</id>
@@ -182,30 +182,6 @@
 <h4>Neo4j</h4>
 
 <p>图数据库。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What have I done and leaned in 2012]]></title>
-    <link href="http://bin3.github.com/blog/blog/2013/01/14/what-have-i-done-and-leaned-in-2012/"/>
-    <updated>2013-01-14T23:10:00+08:00</updated>
-    <id>http://bin3.github.com/blog/blog/2013/01/14/what-have-i-done-and-leaned-in-2012</id>
-    <content type="html"><![CDATA[<p>I have worked for half and one years. The past year means much more be me as a freshman.</p>
-
-<p>During the past year, I have written 3 application projects, each has about 5000 lines of code(LOC) and an AC-Automation library. Now I know how to write a project with 10k LOC and how to design the interfaces of each class.</p>
-
-<p>I leaned to use some NoSQL databases such as <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://fallabs.com/kyotocabinet/">Kyoto Cabinet</a> and <a href="http://code.google.com/p/leveldb/">LevelDB</a>. I also read some code of those projects. I began to read open source code, but I haven't finished a whole project. Anyway, it's a good start and I have got some sense of how a big system is constructed. I deeply realize that reading code is really a nessarry and efficient way to improve my coding skills.</p>
-
-<p>I have read only 8 books(<a href="http://book.douban.com/people/3368508/collect">http://book.douban.com/people/3368508/collect</a>), which should be improved in this new year.</p>
-
-<p>I began to use <a href="https://github.com/">Github</a> to manage my code.
-<img src="/images/bin3-github-contrib-2012.png" title="bin3 github contributions 2012" alt="picture alt" /></p>
-
-<p>I used <a href="http://www.wikispaces.com/">Wikispaces</a> and <a href="http://www.xmind.net/">XMind</a> to manage my knowledge. I have created about 100 wiki pages and 40 mind maps.</p>
-
-<p>I began to use MacBook Air. It gives me a very nice experience and effectively improves my production.</p>
-
-<p>I have a deeper thinking of the computer science and technology. You must have a big picture at first, and then dive into and fill the details. I know I am on the stable and effective way to be an exellent programmer. May be world class, I hope so. Good luck for myself.</p>
 ]]></content>
   </entry>
   
